@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 99%;
+  height: 100px;
+  background-color: #ffffff;
+  border: 2px solid lightgrey;
+  border-radius: 15px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.25);
+  z-index: 1;
+}
+.header__block {
+  display: flex;
+  font-family: "Ibarra Real Nova", serif;
+}
+.header__block_logo {
+  margin: 15px 0 0 15px;
+  width: 200px;
+  height: 70%;
+}
+.header__block .header__group {
+  display: inline-block;
+}
+.header__block .header__group_h1 {
+  height: 45px;
+  font-size: 32px;
+  margin: 13px 0 0 15px;
+}
+.header__block .header__group_text {
+  height: 45px;
+  font-size: 20px;
+  margin: 0 0 0 15px;
+  font-weight: 400;
+  color: grey;
+}
+.header__right {
+  display: flex;
+  justify-content: end;
+  width: 33%;
+}
+.header__right_sum {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 22px;
+  text-decoration: none;
+  color: grey;
+}
+.header__right_link {
+  width: 100px;
+  display: inline-block;
+  margin-top: 15px;
+  transition: 0.5s all;
+}
+.header__right_link:hover {
+  scale: 120%;
+}
+.header__right_link img {
+  width: 70%;
+  height: 70%;
+}
+
+/*# sourceMappingURL=header.css.map */

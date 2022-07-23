@@ -1,0 +1,13 @@
+.basket {
+  position: absolute;
+  right: 82px;
+  width: 400px;
+  height: 880px;
+  z-index: 1;
+  background-color: #fff;
+  border-radius: 5px;
+  border: lightgrey 2px solid;
+  left: -50%;
+}
+
+/*# sourceMappingURL=basket.css.map */

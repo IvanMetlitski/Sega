@@ -1,0 +1,42 @@
+.container {
+  margin: 20px auto;
+  padding-top: 5px;
+  justify-content: center;
+  width: 1500px;
+  min-height: 880px;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.item-1 {
+  background-image: url("../img/1image.jpg");
+}
+
+.item-2 {
+  background-image: url("../img/2image.jpg");
+}
+
+.item-3 {
+  background-image: url("../img/3image.jpg");
+}
+
+.item-4 {
+  background-image: url("../img/4image.jpg");
+}
+
+.item-5 {
+  background-image: url("../img/5image.jpg");
+}
+
+.item-6 {
+  background-image: url("../img/6image.jpg");
+}
+
+/*# sourceMappingURL=app.css.map */

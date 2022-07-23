@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./components/header/Header";
+import './scss/app.css'
+import Basket from './components/basket/basket'
+import Carousel from "./components/carousel/Carousel";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App () {
+    return (
+        <div className="container">
+            <Basket />
+            <Header />
+            <Carousel>
+                <div className="item item-1">
+                    Item 1
+                </div>
+                <div className="item item-2"></div>
+                <div className="item item-3"></div>
+                <div className="item item-4"></div>
+                <div className="item item-5"></div>
+                <div className="item item-6"></div>
+            </Carousel>
+        </div>
+    )
 }
 
 export default App;
