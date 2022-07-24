@@ -39,4 +39,18 @@
   background-image: url("../img/6image.jpg");
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  grid-template-rows: repeat(2, 460px);
+  column-gap: 10px;
+  margin: 35px auto;
+  width: 1500px;
+  min-height: 940px;
+  background-image: url("../img/main_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+}
+
 /*# sourceMappingURL=app.css.map */
