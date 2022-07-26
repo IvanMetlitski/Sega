@@ -1,7 +1,7 @@
 import React from "react";
 import './card.css'
 
-export default function Card (props) {
+const Card =(props)=> {
     return (
         <div className="card">
             <h4 className="card__title">{props.title}</h4>
@@ -10,3 +10,4 @@ export default function Card (props) {
         </div>
     )
 }
+export default Card;

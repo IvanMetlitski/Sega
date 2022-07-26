@@ -12,6 +12,11 @@ const Header =()=> {
                     <h3 className="header__group_text">About games </h3>
                 </div>
             </div>
+            <div className="header__middle">
+                <a href="#">Games /</a>
+
+                <a href="#">Consoles</a>
+            </div>
             <div className="header__right">
                 <a href="#" className="header__right_sum">1200$</a>
                 <a className='header__right_link' href="src/components/header/Header#">

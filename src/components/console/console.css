@@ -1,0 +1,32 @@
+.console {
+  margin: 23px;
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+  padding: 10px;
+  background-color: honeydew;
+  border-radius: 10px;
+  transition: 0.3s all;
+}
+.console:hover {
+  content: "";
+  margin-top: 10px;
+  box-shadow: 19px 19px 19px 19px rgba(0, 0, 0, 0.25);
+}
+.console img {
+  width: 100%;
+}
+.console__title {
+  display: flex;
+  min-height: 48px;
+  justify-content: center;
+  margin: 5px 10px 13px 0;
+  font-size: 23px;
+}
+.console h3 {
+  display: flex;
+  justify-content: center;
+  margin: 30px 5px 0 5px;
+}
+
+/*# sourceMappingURL=console.css.map */

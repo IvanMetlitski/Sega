@@ -37,11 +37,22 @@
       }
     }
   }
+  &__middle {
+    display: flex;
+    margin-left: 140px;
+    align-items: center;
+    a {
+      font-size: 35px;
+      text-decoration: none;
+      color: black;
+      text-transform: uppercase;
+    }
+  }
 
   &__right {
     display: flex;
     justify-content: end;
-    width: 33%;
+    width: 150px;
 
     &_sum {
       display: flex;
