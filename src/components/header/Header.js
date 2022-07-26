@@ -1,5 +1,6 @@
 import React from "react";
 import './header.css'
+import {NavLink} from "react-router-dom";
 
 
 const Header =()=> {
@@ -13,9 +14,12 @@ const Header =()=> {
                 </div>
             </div>
             <div className="header__middle">
-                <a href="#">Games /</a>
-
-                <a href="#">Consoles</a>
+                <NavLink end
+                         style={({isActive}) => ({color: isActive ? '#1E90FF' : '#000'})}
+                         to="/games">Games /</NavLink>
+                <NavLink end
+                         style={({isActive}) => ({color: isActive ? '#1E90FF' : '#000'})}
+                         to="/consoles">Consoles </NavLink>
             </div>
             <div className="header__right">
                 <a href="#" className="header__right_sum">1200$</a>
