@@ -6,7 +6,7 @@ export default function AllCards () {
         <div className="wrapper">
             <Card
                 title={'Beyond Oasis'}
-                imgUrl={'./img/games/game_1.jpg'}
+                imgUrl={'./../../../public/games/game_1.jpg'}
                 text={'Nintendo\'s Legend of Zelda may have spent the 1990s establishing itself as a definitive action-adventure series, but Sega\'s Beyond Oasis was a fine attempt to muscle in on that Hyrule territory. Also titled Story of Thor in other regions, the top-down perspective, gorgeous visuals, and engrossing action made Prince Ali\'s quest both charming and exciting.'}
             />
             <Card

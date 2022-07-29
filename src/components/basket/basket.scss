@@ -1,11 +1,52 @@
 .basket {
   position: absolute;
   right: 82px;
-  width: 400px;
-  height: 880px;
+  width: 380px;
+  height: 151%;
   z-index: 1;
   background-color: #fff;
   border-radius: 5px;
   border: lightgrey 2px solid;
-  left: -50%;
+  &__top {
+    display: flex;
+    h3 {
+      margin-left: 15px;
+      font-size: 31px;
+      text-transform: uppercase;
+      font-family: "Ibarra Real Nova", serif;
+    }
+    .hamburger {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      height: 21px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-end;
+      cursor: pointer;
+      &__cross {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        .first {
+          display: block;
+          margin-top: 28px;
+          width: 30px;
+          height: 5px;
+          background-color: black;
+          rotate: 45deg;
+        }
+        .second {
+          display: block;
+          margin-top: -4px;
+          width: 30px;
+          height: 5px;
+          background-color: black;
+          rotate: -45deg;
+        }
+      }
+    }
+  }
+
 }

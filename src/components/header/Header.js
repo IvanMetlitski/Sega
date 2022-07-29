@@ -3,7 +3,7 @@ import './header.css'
 import {NavLink} from "react-router-dom";
 
 
-const Header =()=> {
+const Header =({onClickBasket})=> {
     return (
         <header className="header">
             <div className="header__block">
@@ -23,9 +23,7 @@ const Header =()=> {
             </div>
             <div className="header__right">
                 <a href="#" className="header__right_sum">1200$</a>
-                <a className='header__right_link' href="src/components/header/Header#">
-                    <img src={require('../../icons/shopping_bag.svg').default} alt="bag"/>
-                </a>
+                <img onClick={onClickBasket} src={require('../../icons/shopping_bag.svg').default} alt="bag"/>
             </div>
         </header>
     )

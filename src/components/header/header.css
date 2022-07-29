@@ -58,18 +58,10 @@
   text-decoration: none;
   color: grey;
 }
-.header__right_link {
-  width: 100px;
-  display: inline-block;
-  margin-top: 15px;
-  transition: 0.5s all;
-}
-.header__right_link:hover {
-  scale: 120%;
-}
-.header__right_link img {
-  width: 70%;
-  height: 70%;
+.header__right img {
+  padding-top: 20px;
+  width: 80px;
+  height: 50px;
 }
 
 /*# sourceMappingURL=header.css.map */
