@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bdb15881.css",
+    "main.js": "/static/js/main.922ff125.js",
+    "static/media/2image.jpg": "/static/media/2image.a23844f375826288a25a.jpg",
+    "static/media/6image.jpg": "/static/media/6image.58928efeb6a5ec857818.jpg",
+    "static/media/3image.jpg": "/static/media/3image.cf4f17c292a46f14c00a.jpg",
+    "static/media/5image.jpg": "/static/media/5image.8e4d016c46392d882c9f.jpg",
+    "static/media/game_3.jpg": "/static/media/game_3.be953cebff66ba75e754.jpg",
+    "static/media/Sega-CD.jpg": "/static/media/Sega-CD.d0dafb2d8da08dc5262e.jpg",
+    "static/media/1image.jpg": "/static/media/1image.81ae22fcce2d2a11aca1.jpg",
+    "static/media/game_8.jpg": "/static/media/game_8.0967cafb3b52e77a7d72.jpg",
+    "static/media/game_7.jpg": "/static/media/game_7.b38d696d1c9a60f4cf7f.jpg",
+    "static/media/game_2.jpg": "/static/media/game_2.d88c16f71bbb1df3fafc.jpg",
+    "static/media/game_6.jpg": "/static/media/game_6.6ebdb26ec2a28e507a53.jpg",
+    "static/media/main_background.jpg": "/static/media/main_background.2e747b33c16958900c34.jpg",
+    "static/media/game_4.jpg": "/static/media/game_4.86cd0fa8e45a3a580524.jpg",
+    "static/media/Sega-Saturn.jpg": "/static/media/Sega-Saturn.6b254c0736c9b8b70e34.jpg",
+    "static/media/Sega-Genesis.jpg": "/static/media/Sega-Genesis.5f56073e75960bc71182.jpg",
+    "static/media/Sega-SG-1000.jpg": "/static/media/Sega-SG-1000.ee5db7db8387475bf355.jpg",
+    "static/media/Sega-Mega-Drive.jpg": "/static/media/Sega-Mega-Drive.728128ff33a62fcac3b8.jpg",
+    "static/media/game_1.jpg": "/static/media/game_1.20e862daaa33b924d06e.jpg",
+    "static/media/game_5.jpg": "/static/media/game_5.b8f486863f806e9d43ea.jpg",
+    "static/media/Game-Gear-Handheld.jpg": "/static/media/Game-Gear-Handheld.8fa37e1e9a13b3d5708b.jpg",
+    "static/media/Sega-Dreamcast.jpg": "/static/media/Sega-Dreamcast.9d2e232ec2284f7cd092.jpg",
+    "static/media/4image.jpg": "/static/media/4image.d0b02adddf60baed4dea.jpg",
+    "static/media/sega-logo.svg": "/static/media/sega-logo.373ddcc0fed82a259e7788353e5ea9f4.svg",
+    "static/media/shopping_bag.svg": "/static/media/shopping_bag.8b29ba81abfc16598977b0e303ddb38a.svg",
+    "index.html": "/index.html",
+    "main.bdb15881.css.map": "/static/css/main.bdb15881.css.map",
+    "main.922ff125.js.map": "/static/js/main.922ff125.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdb15881.css",
+    "static/js/main.922ff125.js"
+  ]
+}
