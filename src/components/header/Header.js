@@ -22,8 +22,7 @@ const Header =({onClickBasket})=> {
                          to="/consoles">Consoles </NavLink>
             </div>
             <div className="header__right">
-                <a href="#" className="header__right_sum">1200$</a>
-                <img onClick={onClickBasket} src={require('../../icons/shopping_bag.svg').default} alt="bag"/>
+                <a href="#"><img onClick={onClickBasket} src={require('../../icons/shopping_bag.svg').default} alt="bag"/></a>
             </div>
         </header>
     )

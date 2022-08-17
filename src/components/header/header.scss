@@ -2,7 +2,7 @@
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
-  width: 99%;
+  width: 1300px;
   height: 100px;
   background-color: #ffffff;
   border: 2px solid lightgrey;
@@ -54,18 +54,12 @@
     justify-content: end;
     width: 150px;
 
-    &_sum {
-      display: flex;
-      align-items: center;
-      margin-right: 20px;
-      font-size: 22px;
-      text-decoration: none;
-      color: grey;
-    }
+
     img {
       padding-top: 20px;
       width: 80px;
       height: 50px;
+      cursor: pointer;
       }
 
   }
